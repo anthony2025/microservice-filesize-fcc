@@ -1,23 +1,7 @@
-Minimal MERN REST API with upcoming GraphQL support. This is meant as a boilerplate for future projects.
+Node microservice that returns the size of an uploaded file, built as part of the FreeCodeCamp curricula.
 
-Live at https://mern-boilerplate-server.herokuapp.com/
+Live at: https://microservice-filesize-fcc.herokuapp.com/
 
-## In Progress
-
-* GraphQL
-* CORS support
-
-### Example usage
-* https://mern-boilerplate-server.herokuapp.com/api/tasks/
-
-### Acknowledgments
-
-* **Sandro Sanchez** - *Initial work, fork and guidance* - [sandropucp](https://github.com/sandropucp)
-
-<br>
-
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
-<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
-  <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
-</a>
+## User stories
+* I can submit a FormData object that includes a file upload
+* When I submit something, I will receive the file size in bytes within a JSON response
